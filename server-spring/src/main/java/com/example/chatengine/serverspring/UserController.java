@@ -22,8 +22,8 @@ import com.google.gson.reflect.TypeToken;
 
 @RestController
 public class UserController {
-    private static String CHAT_ENGINE_PROJECT_ID = "1cbb617b-dd2a-40e2-ad28-6e130e4f335e";
-    private static String CHAT_ENGINE_PRIVATE_KEY = "66112aa0-d3ab-4f6c-bd94-d6b70a80b34a";
+    private static String CHAT_ENGINE_PROJECT_ID = "Add your own product key from chatengine.io";
+    private static String CHAT_ENGINE_PRIVATE_KEY = "Add your own private key from chatengine.io";
 
     @CrossOrigin
     @RequestMapping(path = "/login", method = RequestMethod.POST)
